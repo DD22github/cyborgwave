@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Background image */
+.section1{
+    position: relative;
+    top: 0;
+    height: 600px;
+    background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/* navigation styling */
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.logo{
+    position: absolute;
+    right: 40%;
+}
+.menu-links a{
+    margin: 0px 5px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #494949;
+    margin-right: 24px;
+}
+a.first{
+    background-color: #EB1700;
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff !important;
+}
+a.first:hover{
+    background-color: #f35b4a;
+    transition: o.3s all;
+}
+a.second{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+/* End of Navigation */
+
+/* Input and sign in styling */
+
+.div-form{
+    margin-top: 220px;
+    width: 100%;
+}
+
+.all-input{
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "DD-TTNorms", "-apple-system", "BlinkMacSystemFont", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.input input{
+    width: 420px;
+    font-size: 15px;
+    padding: 20px 10px 20px 50px;
+    
+    border-radius: 60px;
+    outline: 2px solid blue;;
+}
+.input input::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.input input:focus{
+    padding-left: 50px;
+}
+.location{
+    margin-left: -400px;
+}
+.search{
+    margin-top: 12px;
+    margin-left: 330px;
+    background-color: #EB1700;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border-radius: 100%;
+}
+.search .uil-arrow-right{
+    position: relative;
+    top: 4px;
+    left: 8px;
+    font-size: 24px;
+    color: #fff;
+
+}
+.location .uil{
+    position: relative;
+    vertical-align: middle;
+    top: 20px;
+    left: 6px;
+    font-size: 24px;
+    color: #494949;
+}
+.location-hover .uil:hover{
+    color: rgb(98, 98, 240) !important;
+}
+.user-icon{
+    position: relative;
+    
+}
+.user-icon .uil{
+    position : relative;
+    vertical-align: middle;
+    margin-left: -215px;
+  
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    cursor: pointer;
+
+}
+.sign-user{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.user-btn{
+    padding: 10px 20px 10px 31px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #191919;
+    cursor: pointer;
+}
+
+.section2{
+    margin: auto;
+    margin-top: 100px;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center; 
+    flex-flow: row;
+}
+.section2 img{
+    width: 150px;
+    height: 124px;
+}
+.dasher-img, .store-img, .iphone-img{
+    text-align: center;
+}
+.section2 h2{
+    font-size: 32px;
+    color: #191919;
+    text-align: center;
+    
+}
+.section2 p{
+    font-size: 18px;
+    color: #191919;
+    text-align: center;
+    padding: 10px 0px;
+    line-height: 1.7rem;
+    font-weight: 520 ;
+}
+.anchor{
+    text-align: center;
+}
+.section2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #EB1700;
+    text-align: center;
+    font-weight: bold;
+}
+.section2 .uil-arrow-right{
+    color: #EB1700;
+    font-size: 18px;
+}
+
